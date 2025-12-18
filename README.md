@@ -18,6 +18,11 @@ Each level has its own markdown file containing:
 - Explanation of the solution
 - Key takeaways
 
+## Connection
+```bash
+ssh -p 2220 bandit0@bandit.labs.overthewire.org
+```
+
 ## Disclaimer
 Passwords and sensitive data are **intentionally omitted**.  
 This repository is for educational purposes only.
