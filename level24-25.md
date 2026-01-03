@@ -22,7 +22,7 @@ The pincode must be brute-forced.
 ```bash
 #!/bin/bash
 
-PASSWORD="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8"
+PASSWORD="{password}"
 
 # Open persistent TCP connection
 exec 3<>/dev/tcp/localhost/30002
@@ -44,15 +44,6 @@ done
 # Close connection
 exec 3>&-
 ```
-
----
-
-### Result
-
-[+] PIN FOUND: 1667
-Correct!
-The password of user bandit25 is iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
-
 ---
 
 ### What I Learned
